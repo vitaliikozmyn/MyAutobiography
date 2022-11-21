@@ -1,0 +1,124 @@
+@media (min-width: 1200px) {
+    .DIV1, .DIV2, .DIV3 {
+        float: left;
+        border: 1px solid green;
+        width: 50%;
+        padding: 10px;
+        margin: 10px;
+        background: #00ff90ff;
+        font-style: italic;
+        
+    }
+    .maindiv {
+        display: flex;
+        flex-direction: row;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .name {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .DIV1, .DIV2, .DIV3 {
+        float: left;
+        border: 1px solid green;
+        width: 50%;
+        padding: 10px;
+        margin: 10px;
+        background: #00ff90ff;
+        font-style: italic;
+    }
+
+    .maindiv {
+        display: flex;
+        flex-direction: row;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .name {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .maindiv {
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+
+
+
+
+    .DIV1, .DIV2, .DIV3 {
+        background: #00ff90ff;
+        font-style: italic;
+        flex: 1;
+        float: left;
+        border: 1px solid green;
+        width: 50%;
+        padding: 10px;
+        margin: 10px;
+    }
+    .name {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+
+    .maindiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+    .DIV1, .DIV2, .DIV3 {
+        background: #00ff90ff;
+        font-style: italic;
+        flex: 1;
+        float: left;
+        border: 1px solid green;
+        width: 50%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .name {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
+
