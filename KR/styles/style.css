@@ -1,19 +1,59 @@
 #B1 {
-    background-color: #00ff90;
+    background: #00ff90;
     color: #000000;
+    
 }
 
 #B2 {
-    background-color: #ff0000;
+    background: #ff0000;
     color: #ffd800;
 }
 
 #B3 {
-    background-color: #b200ff;
+    background: #b200ff;
     color: #ffffff;
 }
 
 #B4 {
-    background-color: #ff006e;
+    background: #ff006e;
     color: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+@media (min-width: 1200px) {
+    #B1 #B2 #B3 #B4 {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    #B1 #B2 #B3 #B4 {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    #B1 #B2 #B3 #B4 {
+        width: 100%;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    #B1 #B2 #B3 #B4 {
+        display: block;
+    }
 }
