@@ -1,0 +1,61 @@
+#B1 {
+    background: #00ff90;
+    color: #000000;
+    padding: 6px;
+}
+
+#B2 {
+    background: #ff0000;
+    color: #ffd800;
+    padding: 6px;
+}
+
+#B3 {
+    background: #b200ff;
+    color: #ffffff;
+    padding: 6px;
+}
+
+#B4 {
+    background: #ff006e;
+    color: #ffffff;
+    padding: 6px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+@media (min-width: 1200px) {
+    .blocks {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .blocks {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .blocks {
+        width: 100%;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .blocks {
+        display: block;
+    }
+}
