@@ -1,0 +1,38 @@
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#back {
+    font-style: italic;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+#x1 {
+    text-align: center;
+    font-size: 70%;
+}
+
+#x2 {
+    text-align: center;
+    font-size: 130%;
+}
+
+#x3 {
+    text-align: center;
+    font-size: 160%;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+

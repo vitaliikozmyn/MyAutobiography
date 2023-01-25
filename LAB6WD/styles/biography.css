@@ -1,0 +1,75 @@
+
+.cn:link, .cn:visited {
+    text-decoration: none;
+    background-color: #0000ff;
+    border: 1px solid #008000;
+    color: #000000;
+    display: block;
+    width: 160px;
+    margin-bottom: 1px;
+}
+
+.cn:hover {
+    background-color: #FF00FF;
+    color: #013220;
+}
+
+.cn:active {
+    background-color: #ffff00;
+    color: #DC143C;
+}
+
+#a1 {
+    background-color: #7bc790;
+    color: #0e1e81;
+}
+
+#a2 {
+    background-color: #91ba9a;
+    color: #151a6b;
+}
+
+#a3 {
+    background-color: #a4ada4;
+    color: #171755;
+}
+
+#a4 {
+    background-color: #b39fad;
+    color: #161340;
+}
+
+#a5 {
+    background-color: #c18fb6;
+    color: #140f2c;
+}
+
+#Верх {
+    text-align: center;
+    font-size: 22px;
+}
+
+#back {
+    font-style: italic;
+    text-decoration: none;
+}
+
+#Content {
+    text-align: center;
+}
+
+h2 {
+    font-size: 140%;
+}
+
+p {
+    font-size: 120%;
+}
+
+.cont {
+    font-weight: 600;
+}
+
+#UP {
+    text-transform: uppercase;
+}
